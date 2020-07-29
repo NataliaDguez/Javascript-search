@@ -1,0 +1,444 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins:400,500,700');
+
+/* For mobile phones: */
+[class*="col-"] {
+  width: 100%;
+}
+
+@media only screen and (min-width: 600px) {
+  /* For tablets: */
+  .col-s-1 {width: 8.33%;}
+  .col-s-2 {width: 16.66%;}
+  .col-s-3 {width: 25%;}
+  .col-s-4 {width: 33.33%;}
+  .col-s-5 {width: 41.66%;}
+  .col-s-6 {width: 50%;}
+  .col-s-7 {width: 58.33%;}
+  .col-s-8 {width: 66.66%;}
+  .col-s-9 {width: 75%;}
+  .col-s-10 {width: 83.33%;}
+  .col-s-11 {width: 91.66%;}
+  .col-s-12 {width: 100%;}
+}
+@media only screen and (min-width: 768px) {
+  /* For desktop: */
+  .col-1 {width: 8.33%;}
+  .col-2 {width: 16.66%;}
+  .col-3 {width: 25%;}
+  .col-4 {width: 33.33%;}
+  .col-5 {width: 41.66%;}
+  .col-6 {width: 50%;}
+  .col-7 {width: 58.33%;}
+  .col-8 {width: 66.66%;}
+  .col-9 {width: 75%;}
+  .col-10 {width: 83.33%;}
+  .col-11 {width: 91.66%;}
+  .col-12 {width: 100%;}
+}
+
+/*Font styles*/
+html, body {
+  font-family: "Merriweather", serif;
+   color: #222;
+   font-size: 14px;
+}
+
+h1 {
+  font-family: "Merriweather", serif;
+  font-size: 18px;   
+  margin-bottom: 5px;   
+  }
+  
+h2 {
+  font-family: "Open Sans", sans-serif;
+  font-size: 18px;
+  font-weight: lighter; 
+  margin-top: 0;
+  }
+h3 {
+  font-family: "Open Sans", sans-serif;
+  font-size: 18px;
+  font-weight: lighter;
+  line-height: 1.8; 
+  }
+h4 {
+    font-family: "Merriweather", serif;
+    font-size: 14px;   
+    margin-bottom: 5px; 
+    line-height: 1.8;   
+    }
+h5 {
+  font-family: "Merriweather", serif;
+    font-size: 12px;
+}
+h6 {
+  font-family: "Open Sans", sans-serif;
+  font-size: 12px;
+}
+.link {
+  color: #222;
+}
+.link:hover {
+  color: #222;
+  text-decoration: underline;
+}
+.sanserif-book1 {
+  font-family: "Open Sans", sans-serif;
+  font-size: 16px;
+  line-height: 1.8;
+}
+.sanserif {
+  font-family: "Open Sans", sans-serif;
+  font-size: 14px;
+  line-height: 1.8;
+}
+.serif {
+  font-family: "Merriweather", serif;
+  font-size: 16px; 
+}
+
+/*SSMM button styles*/
+.social a {
+  font-size: 1rem;
+  padding:0.4rem;
+}
+.fa-twitter, .fa-facebook, .fa-instagram, .fa-search, .fa-bars {
+  color: #222;
+}
+.fa-shopping-cart {
+  border-style: solid;
+}
+.fa-twitter:hover, .fa-facebook:hover, .fa-instagram:hover, .fa-search:hover, .fa-angle-righ:hover {
+  color: rgb(112, 112, 112);
+}
+.searchbar:focus, .search:focus, .navbar-toggler:focus, .email-box {
+  outline: none !important;
+  box-shadow: none !important;
+}
+
+/*Botones sin recuadro*/
+.transbutton {
+  border:none;
+  background-color: rgba(255, 255, 255, 0);
+  outline: none !important;
+  box-shadow: none !important;
+}
+
+/*Border styles*/
+.email-box {
+  font-size: 14px;
+  font-family: "Open Sans", sans-serif;
+  color: grey;
+  background-color: #f8ead800;
+  border:none;
+  margin: 10px;
+}
+.wpcf7-form-control-wrap {
+  border-style: solid;
+  border-width: 1px;
+  border-color:#222;
+}
+.searchbar {
+  font-size: 14px;
+  font-family: "Open Sans", sans-serif;
+  color: grey;
+  background-color: #f8ead800;
+  border-style: solid;
+  border-width: 1px;
+  border-color:#222;
+}
+
+
+/*navBAR style MAINMENU*/
+@media (min-width: 992px) {
+  .navbar-light .navbar-brand {
+    font-size: 16px;
+    color: #222;
+  }
+}
+@media (max-width: 991px) {
+  .navbar-light .navbar-brand {
+    font-size: 20px;
+    color: #222; 
+    text-align: center;
+  }
+}   
+@media (min-width: 768px) {
+  .navbar-light .navbar-brand:hover {
+    color:#222;
+    text-decoration: underline;
+  }
+}
+.navbar-light .nav-item .nav-link {
+  color:#222;
+  font-size: 14px;
+}
+.navbar-light .nav-item .nav-link:hover {
+  text-decoration: underline;
+  color:#222;
+}
+
+/*navBAR style DROPDOWN*/
+.dropdown-box {
+  max-width: 101px;
+}
+@media (min-width: 992px) {
+  .dropdown:hover .dropdown-toggle {
+    background-color: #f8ead8;
+    color: black;
+    text-decoration: underline;
+  }
+}
+@media (max-width: 991px) {
+  .dropdown:hover .dropdown-toggle {
+    color: black;
+    text-decoration: underline;
+  }
+}
+@media (min-width: 992px) {
+  .dropdown-menu {
+    font-size: 14px;
+    line-height: 1.8; 
+    background-color: #f8ead8;
+    border:none;
+    min-width:100px;
+  }
+}
+@media (max-width: 991px) {
+  .dropdown-menu {
+    font-size: 13px;
+    line-height: 1.8;
+    border:none;
+    min-width:100px;
+    padding-top: 0px;
+    padding-bottom: 15px;
+  }
+}
+ul.dropdown {
+  padding: 2px;
+  margin-top: 0px;
+}
+.dropdown-menu {
+    min-width:100px;
+    border:none;
+    margin-top: -1px;
+    margin-left: 15px; 
+}
+@media (min-width: 992px) {
+  .dropdown-item {
+    color: #222; 
+  }
+}
+@media (max-width: 991px) {
+  .dropdown-item {
+    text-transform:uppercase;
+    color: rgb(172, 172, 172); 
+    text-align: center;
+  }
+}
+@media (min-width: 992px) {
+  .dropdown-item:hover {
+    background-color:#f8ead8;
+    text-decoration: underline;
+  }
+}
+@media (max-width: 991px) { 
+  .dropdown-item:hover {
+    background-color: white;
+    text-decoration: underline;
+  }
+}
+    /*Esta opción muestra el submenú solo cuando hover en el menú*/
+.dropdown:hover>.dropdown-menu {
+  display: block;
+}
+.dropdown > .dropdown-toggle:active {
+    /*Without this, clicking will make it sticky*/
+  pointer-events: none;
+}
+.navbar-toggler {
+  border:none;
+  padding:0;
+}
+
+/*Shopping Cart Style*/
+.shopping-cart {
+  font-family: "Open Sans", sans-serif;
+  font-size: 13px;
+  color: grey;
+}
+.borderbox {
+  display: inline-block;  
+  width:301px;
+  border-style: solid;
+  border-width: 1px;
+  border-color: #222;
+}
+ul.dropdown-cart{
+  width:340px;
+  border:none;
+  margin-top: 5px;
+  background-color: #f8ead8;
+}
+ul.dropdown-cart li .item {
+  display:block;
+  padding:0px 10px;
+  margin: 3px 0;
+}
+ul.dropdown-cart li .item:hover {
+  background-color:#f8ead800; 
+}
+ul.dropdown-cart li .item:after {
+  visibility: hidden;
+  display: block;
+  font-size: 0;
+  content: " ";
+  clear: both;
+  height: 0;
+}
+
+ul.dropdown-cart li .item-left{
+  float:left;
+}
+ul.dropdown-cart li .item-left img, ul.dropdown-cart li .item-left span.item-info {
+  float:left;
+}
+ul.dropdown-cart li .item-left span.item-info {
+  margin-left:10px;   
+}
+ul.dropdown-cart li .item-left span.item-info span { 
+  display:block;
+}
+ul.dropdown-cart li .item-right {
+  float:right;
+}
+ul.dropdown-cart li .item-right button {
+  margin-top:14px;
+} 
+
+/*Carousel style*/
+@media (max-width: 768px) {
+  .carousel-inner img {
+    height: 280px;
+  }
+}
+@media (min-width: 769px) {
+  .carousel-inner img {
+    width: 100%;
+    height: 100%;
+  }
+}
+.carousel-control-left, .carousel-control-right {
+  position: absolute;
+  top: 55%;
+  transform: translateY(-800%);
+}
+.carousel-caption {
+  text-align: left;
+  padding-left: 42%;
+  top: 25%;
+}
+.carousel-caption h1 {
+  font-size:4vw;
+  text-decoration: underline;
+  font-style: italic;
+  }
+.carousel-caption h3 {
+  font-size:2vw;
+  font-style: italic;
+  }
+      /*---Firefox Bug Fix --*/
+.carousel-item {
+  transition: -webkit-transform 0.5s ease;
+  transition: transform 0.5s ease;
+  transition: transform 0.5s ease, -webkit-transform 0.5s ease;
+  -webkit-backface-visibility: visible;
+  backface-visibility: visible;
+}
+    /*--- Fixed Background Image --*/
+figure {
+  position: relative;
+  width: 100%;
+  height: 60%;
+  margin: 0!important;
+}
+.fixed-wrap {
+  clip: rect(0, auto, auto, 0);
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
+/*--- Bootstrap Padding Fix --*/
+[class*="col-"] {
+    padding: 1rem;
+}
+.jumbotron {
+  padding: 5px;
+  border-radius: 0;
+}
+
+/*Images Grid style*/ 
+@media (min-width: 1020px){
+  .img1 {
+    max-width: 335px;
+  }
+}
+/*Grid paddings*/
+@media (min-width: 576px) {
+  .grid-text-padding {
+    padding-right: 60px;
+  }
+}
+@media (max-width: 992px) {
+  .grid-image-padding {
+    padding-right: 50px;
+    padding-left: 50px;
+    text-align: center;
+  }
+}
+@media (max-width: 768px) {
+  .grid-image-padding {
+    padding-right: 60px;
+    padding-left: 60px;
+    text-align: center;
+  }
+}
+    /*Botones del grid*/
+.btn-outline-dark {
+  font-family: "Open Sans", sans-serif;
+  font-size: 14px;
+  font-weight: normal;
+  border: 2px solid #222;
+}
+.btn-outline-dark:hover {
+  background-color: #222;
+  border: 2px solid #222;
+}
+
+/*Footer style*/
+footer {
+  background-color: #f8ead8;
+  color:#222;
+  padding-top: 4rem;
+  padding-bottom: 2rem;
+}
+
+/*
+// Extra small devices (portrait phones, less than 576px)
+// No media query since this is the default in Bootstrap
+
+// Small devices (landscape phones, 576px and up)
+@media (min-width: 576px) { ... }
+
+// Medium devices (tablets, 768px and up)
+@media (min-width: 768px) { ... }
+
+// Large devices (desktops, 992px and up)
+@media (min-width: 992px) { ... }
+
+// Extra large devices (large desktops, 1200px and up)
+@media (min-width: 1200px) { ... }
+*/
